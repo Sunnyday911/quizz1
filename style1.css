@@ -1,0 +1,88 @@
+body{
+    font-family: "Roboto Slab", serif;
+    background-color: rgb(219, 219, 91);
+    margin: 0px;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 177, 20); /* Add some color to the navigation */
+    padding: 10px;
+}
+
+.Navigation .Name {
+    margin-right: auto; /*This will push the other links to the right*/
+    color: white; /* Optional: styling for the text */
+    font-size: 20px;
+}
+
+.Navigation a {
+    color: white; /* Make the text inside the links white */
+    padding: 0 15px; /* Add some spacing between the links */
+    text-decoration: none; /* Remove the underline from the links */
+}
+
+.Navigation a:hover {
+    background-color: rgb(202, 160, 33); /* Optional: Change background on hover */
+}
+
+
+.gambar1 {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; /* Set the width */
+    height: 300px; /* Set the height to the same value */
+    /* border-radius: 50%; Ensures a circular shape */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+
+.myface {
+    width: 300px;
+    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 50%; /* Add this for rounded corners */
+}
+
+.Welcome{
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.exp{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+.org{
+    font-size: 20px;
+}
+
+a.og1:link{
+    color: black;
+    text-decoration: none;
+}
+
+a.og1:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+a.og2:link{
+    color: black;
+    text-decoration: none;
+}
+
+a.og2:hover{
+    text-decoration:underline;
+    color: black;
+}
